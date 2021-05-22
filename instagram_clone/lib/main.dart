@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:instagram_clone/Widgets/TextCustom.dart';
+import 'package:instagram_clone/pages/profilePage.dart';
+import 'package:instagram_clone/pages/root_app.dart';
 
 
 
@@ -24,14 +26,14 @@ class MyApp extends StatelessWidget {
 
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(),
-      debugShowCheckedModeBanner: false,
+      home: RootApp(),
+      debugShowCheckedModeBanner: false, 
     );
   }
 }
 
 
-class MyHomePage extends StatefulWidget {
+class MyHomePage extends StatefulWidget{
   @override
   _MyHomePageState createState() => _MyHomePageState();
 }
